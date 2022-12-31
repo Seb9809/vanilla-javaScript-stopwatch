@@ -1,0 +1,77 @@
+body {
+  background-color: rgb(255, 135, 120);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  height: 100%;
+}
+
+main {
+  width: 800px;
+  margin: 30px auto;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Arial Narrow Bold", sans-serif;
+  font-weight: 100;
+  font-size: 2.6em;
+  text-transform: uppercase;
+}
+
+#seconds,
+#tens {
+  font-size: 2em;
+}
+
+button {
+  background: initial;
+  color: rgb(255, 255, 255);
+  border: solid 1px rgb(255, 255, 255);
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 2em;
+  padding: 18px 10px;
+  width: 180px;
+  margin: 10px;
+  outline: none;
+}
+
+button:hover {
+  background: rgb(255, 255, 255);
+  border: solid 1px rgb(255, 255, 255);
+  color: initial;
+}
+
+@media screen and (max-width: 470px) {
+  main {
+    width: 300px;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-size: 30px;
+  }
+
+  button {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    width: 600px;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-size: 30px;
+  }
+
+  button {
+    font-size: 30px;
+  }
+}
